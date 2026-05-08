@@ -3,7 +3,7 @@ import { Experiences } from "../data/Experience";
 
 const Experience = () => {
   return (
-    <section className="mt-10">
+    <section id="experience" className="mt-10">
       <span className="font-medium dark:text-white">experience</span>
       {Experiences.map((experience, i) => (
         <ExperienceCard

@@ -11,8 +11,12 @@ const Navbar = () => {
 
       <nav className="flex items-center gap-4">
         <ul className="flex items-center gap-2">
-          <li>experience</li>
-          <li>project</li>
+          <li>
+            <a href="#experience">experience</a>
+          </li>
+          <li>
+            <a href="#project">project</a>
+          </li>
         </ul>
 
         <button onClick={toggleTheme}>

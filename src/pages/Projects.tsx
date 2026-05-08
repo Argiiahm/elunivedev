@@ -3,7 +3,7 @@ import { Projects } from "../data/Projects";
 
 const ProjectsPage = () => {
   return (
-    <section className="mt-20">
+    <section id="project" className="mt-20">
       <span className="font-medium dark:text-white">Projects</span>
       {Projects.map((project, i) => (
         <ProjectCard
