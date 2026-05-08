@@ -21,9 +21,13 @@ const Hero = () => {
         <div className="mt-2 flex items-center gap-6">
           {/* CV */}
           <div>
-            <button className="bg-zinc-900 px-4 py-1 text-white rounded-md cursor-pointer">
+            <a
+              href="https://drive.google.com/file/d/1UKKjPUpJU1i5uLj0xsAm88PWEO3_kCbb/view?usp=sharing"
+              target="_blank"
+              className="bg-zinc-900 px-4 py-1 text-white rounded-md cursor-pointer"
+            >
               View cv
-            </button>
+            </a>
           </div>
           {/*  */}
           <div className="flex items-center gap-6">
