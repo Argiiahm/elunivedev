@@ -60,8 +60,7 @@ export const Projects: Project[] = [
     title: "ChatPRD",
     demoURL: "https://chat-prd-alpha.vercel.app/",
     features: [
-      "Mengembangkan aplikasi web berbasis AI dengan fitur chat menggunakan Gemini API",
-      "Mengimplementasikan sistem rekomendasi tutor terdekat berdasarkan lokasi pengguna",
+      "Mengembangkan aplikasi web berbasis AI dengan fitur Generate PRD menggunakan Gemini API",
       "Membangun antarmuka pengguna yang responsif dan interaktif menggunakan React.js dan Tailwind CSS",
     ],
     techStack: ["react js", "gemini api", "tailwindcss"],
