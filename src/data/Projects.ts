@@ -6,17 +6,17 @@ type Project = {
 };
 
 export const Projects: Project[] = [
-  {
-    title: "BisaHebat ( on progres 7% )",
-    demoURL: "https://bisahebat.my.id",
-    features: [
-      "Mengembangkan sistem absensi siswa berbasis SaaS untuk SMK",
-      "Mengimplementasikan fitur absensi, manajemen siswa, dan laporan data",
-      "Membangun dashboard dan antarmuka pengguna yang responsif untuk admin dan guru",
-      "Berkolaborasi dalam pengembangan aplikasi dan maintenance sistem",
-    ],
-    techStack: ["react js", "laravel", "tailwindcss", "mysql", "flutter"],
-  },
+  // {
+  //   title: "BisaHebat ( on progres 7% )",
+  //   demoURL: "https://bisahebat.my.id",
+  //   features: [
+  //     "Mengembangkan sistem absensi siswa berbasis SaaS untuk SMK",
+  //     "Mengimplementasikan fitur absensi, manajemen siswa, dan laporan data",
+  //     "Membangun dashboard dan antarmuka pengguna yang responsif untuk admin dan guru",
+  //     "Berkolaborasi dalam pengembangan aplikasi dan maintenance sistem",
+  //   ],
+  //   techStack: ["react js", "laravel", "tailwindcss", "mysql", "flutter"],
+  // },
   {
     title: "Portal Kerja ( areakerja.com )",
     demoURL: "https://areakerja.com",
