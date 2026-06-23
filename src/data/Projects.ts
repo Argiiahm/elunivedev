@@ -17,6 +17,7 @@ export const Projects: Project[] = [
     ],
     techStack: ["laravel", "tailwindcss", "mysql", "javascript", "Mediapipe"],
   },
+
   {
     title: "Portal Kerja ( areakerja.com )",
     demoURL: "https://areakerja.com",
