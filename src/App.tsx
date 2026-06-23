@@ -11,21 +11,21 @@ function App() {
   return (
     <>
       <Helmet>
-        <title>Argi - Fullstack Developer</title>
+        <title>Argi - web Developer</title>
         <meta
           name="description"
           content="Hallo saya Argi Ahmes Halepiyandra, fresh graduate SMK jurusan Rekayasa Perangkat Lunak."
         />
         <meta
           name="keywords"
-          content="argiiahm, argi, fullstack developer, react developer, laravel developer, portfolio, jasa pembuatan website, elunive, elunivedev, jasa pembuatan website cilacap"
+          content="argiiahm, argi, fullstack developer, web developer , react developer, laravel developer, portfolio, jasa pembuatan website, elunive, elunivedev, jasa pembuatan website cilacap"
         />
         <meta name="author" content="Argiahm" />
         <meta name="robots" content="index, follow" />
         {/* Canonical URL */}
         <link rel="canonical" href="https://elunivedev.my.id" />
         {/* Open Graph */}
-        <meta property="og:title" content="Argi - Fullstack Developer" />
+        <meta property="og:title" content="Argi - Software Developer" />
         <meta
           property="og:description"
           content="Hallo saya Argi Ahmes Halepiyandra, fresh graduate SMK jurusan Rekayasa Perangkat Lunak."
@@ -38,7 +38,7 @@ function App() {
         />
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Argi - Fullstack Developer" />
+        <meta name="twitter:title" content="Argi - Software Developer" />
         <meta
           name="twitter:description"
           content="Hallo saya Argi Ahmes Halepiyandra, fresh graduate SMK jurusan Rekayasa Perangkat Lunak."
