@@ -10,7 +10,7 @@ export const Skills: Skills[] = [
   },
   {
     name: "Frameworks",
-    techStack: ["LARAVEL"],
+    techStack: ["LARAVEL", "EXPRESS JS"],
   },
   {
     name: "Libraries",
@@ -18,7 +18,7 @@ export const Skills: Skills[] = [
   },
   {
     name: "Backend & Database",
-    techStack: ["MYSQL", "LARAVEL"],
+    techStack: ["MYSQL", "POSTGREE", "LARAVEL", "EXPRESS"],
   },
   {
     name: "Tools",

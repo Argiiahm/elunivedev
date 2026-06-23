@@ -22,6 +22,7 @@ export const Experiences: Experience[] = [
     ],
     techStack: [
       "laravel",
+      "express js",
       "mysql",
       "tailwindcss",
       "react js",

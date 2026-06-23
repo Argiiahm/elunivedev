@@ -7,15 +7,15 @@ type Project = {
 
 export const Projects: Project[] = [
   {
-    title: "BisaHebat ( on progres 7% )",
-    demoURL: "https://bisahebat.my.id",
+    title: "Absensi Karyawan",
+    demoURL: "",
     features: [
-      "Mengembangkan sistem absensi siswa berbasis SaaS untuk SMK",
-      "Mengimplementasikan fitur absensi, manajemen siswa, dan laporan data",
-      "Membangun dashboard dan antarmuka pengguna yang responsif untuk admin dan guru",
+      "Mengembangkan sistem absensi karyawan berbasis face recognition dan live livenes",
+      "Mengimplementasikan fitur absensi, manajemen izin/cuti, pengajuan karyawan serta laporan",
+      "Membangun dashboard dan antarmuka pengguna yang responsif untuk admin",
       "Berkolaborasi dalam pengembangan aplikasi dan maintenance sistem",
     ],
-    techStack: ["react js", "laravel", "tailwindcss", "mysql", "flutter"],
+    techStack: ["laravel", "tailwindcss", "mysql", "javascript", "Mediapipe"],
   },
   {
     title: "Portal Kerja ( areakerja.com )",
