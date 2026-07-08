@@ -4,18 +4,27 @@ import { HugeiconsIcon } from "@hugeicons/react";
 const Hero = () => {
   return (
     <section className="mt-10">
-      <span className="text-zinc-400">hello there👋, I'm</span>
+      <div className="flex justify-center items-center mb-4">
+        <img
+          className="w-96"
+          loading="lazy"
+          src="/images/profileb.png"
+          alt="profile argiiahm"
+        />
+      </div>
       <div className="mt-2">
-        <h1 className="text-4xl font-semibold dark:text-white">
-          Argi Ahmes Halepiyandra
-        </h1>
-        {/* Bio */}
-        <div className="text-zinc-700 dark:text-white">
-          <p>18 years old, he/him</p>
-          <p>
-            Fresh graduate SMK Rekayasa Perangkat Lunak yang memiliki minat dan
-            fokus dalam membangun aplikasi web modern dan scalable.
-          </p>
+        <div>
+          <h1 className="text-4xl font-semibold dark:text-white">
+            Argi Ahmes Halepiyandra
+          </h1>
+          {/* Bio */}
+          <div className="text-zinc-700 dark:text-white">
+            <p>18 years old, he/him</p>
+            <p>
+              Fresh graduate SMK Rekayasa Perangkat Lunak yang memiliki minat
+              dan fokus dalam membangun aplikasi web modern dan scalable.
+            </p>
+          </div>
         </div>
         {/* CTA */}
         <div className="mt-2 flex items-center gap-6">

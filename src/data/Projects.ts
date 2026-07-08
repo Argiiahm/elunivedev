@@ -1,4 +1,5 @@
 type Project = {
+  img?: string;
   title: string;
   demoURL: string;
   features: string[];
@@ -7,6 +8,7 @@ type Project = {
 
 export const Projects: Project[] = [
   {
+    img: "/images/projects/project_absen.png",
     title: "Absensi Karyawan",
     demoURL: "",
     features: [
@@ -19,6 +21,7 @@ export const Projects: Project[] = [
   },
 
   {
+    img: "/images/projects/areakerja.png",
     title: "Portal Kerja ( areakerja.com )",
     demoURL: "https://areakerja.com",
     features: [

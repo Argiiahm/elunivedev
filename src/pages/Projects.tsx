@@ -5,20 +5,26 @@ const ProjectsPage = () => {
   return (
     <section id="project" className="mt-20">
       <span className="font-medium dark:text-white">Projects</span>
-      {Projects.map((project, i) => (
-        <ProjectCard
-          key={i}
-          title={project.title}
-          demoURL={project.demoURL}
-          features={project.features}
-          techStack={project.techStack}
-        />
-      ))}
-      <div className="flex justify-center">
+
+      <div className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-6">
+        {Projects.map((project, i) => (
+          <ProjectCard
+            key={i}
+            img={project.img}
+            title={project.title}
+            demoURL={project.demoURL}
+            features={project.features}
+            techStack={project.techStack}
+          />
+        ))}
+      </div>
+
+      <div className="mt-8 flex justify-center">
         <a
-          className="border border-zinc-200 px-4 py-2 text-zinc-400 rounded-md hover:bg-zinc-100 dark:hover:bg-zinc-900 transition duration-300"
+          className="rounded-md border border-zinc-200 px-4 py-2 text-zinc-400 transition hover:bg-zinc-100 dark:border-zinc-800 dark:hover:bg-zinc-900"
           href="https://github.com/Argiiahm"
           target="_blank"
+          rel="noopener noreferrer"
         >
           View all projects
         </a>
