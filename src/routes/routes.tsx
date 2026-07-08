@@ -2,6 +2,7 @@ import { createBrowserRouter } from "react-router";
 import Home from "../pages/Home";
 import ErrorPage from "../pages/ErrorPage";
 import ProjectDetail from "../pages/ProjectDetail";
+import Navbar from "../components/Navbar";
 
 const router = createBrowserRouter([
   {
@@ -14,7 +15,12 @@ const router = createBrowserRouter([
   },
   {
     path: "/project/:slug",
-    element: <ProjectDetail />,
+    element: (
+      <>
+        <Navbar />
+        <ProjectDetail />
+      </>
+    ),
   },
 ]);
 

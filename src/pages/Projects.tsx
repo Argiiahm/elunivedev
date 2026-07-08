@@ -12,6 +12,7 @@ const ProjectsPage = () => {
             key={i}
             img={project.img}
             title={project.title}
+            slug={project.slug}
             demoURL={project.demoURL}
             features={project.features}
             techStack={project.techStack}
