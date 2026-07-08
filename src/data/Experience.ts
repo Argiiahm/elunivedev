@@ -10,15 +10,15 @@ type Experience = {
 export const Experiences: Experience[] = [
   {
     title: "Web Developer",
-    location: "Cilacap, Jawa Tengah",
-    date: "Jan 2026 - Sekarang",
-    company: "Elunive ID ( Pribadi )",
+    location: "Cilacap, Central Java",
+    date: "Jan 2026 - Present",
+    company: "Elunive",
     description: [
-      "Mengembangkan aplikasi web modern dan responsif menggunakan Laravel dan JavaScript",
-      "Membangun antarmuka pengguna dengan React.js, Tailwind CSS, dan Blade",
-      "Mengelola database dan logika aplikasi menggunakan MySQL dan Laravel",
-      "Menggunakan Git dan GitHub untuk version control dan kolaborasi tim",
-      "Membuat dan mengimplementasikan desain UI/UX dari Figma menjadi website fungsional",
+      "Developed modern and responsive web applications using Laravel and JavaScript",
+      "Built user interfaces with React.js, Tailwind CSS, and Blade",
+      "Managed databases and application logic using MySQL and Laravel",
+      "Used Git and GitHub for version control and team collaboration",
+      "Translated UI/UX designs from Figma into functional web applications",
     ],
     techStack: [
       "laravel",
@@ -32,14 +32,14 @@ export const Experiences: Experience[] = [
     ],
   },
   {
-    title: "Programmer",
+    title: "Web Developer",
     location: "Banguntapan, Yogyakarta",
     date: "Jul 2025 - Jan 2026",
     company: "Seven Inc",
     description: [
-      "Mengembangkan project website dalam tim menggunakan Laravel dan JavaScript",
-      "Berkontribusi dalam pengembangan fitur, debugging, dan pengujian aplikasi",
-      "Menggunakan Git untuk version control dalam workflow tim",
+      "Developed web applications collaboratively using Laravel and JavaScript",
+      "Contributed to feature development, debugging, and application testing",
+      "Used Git for version control within a collaborative development workflow",
     ],
     techStack: [
       "laravel",
