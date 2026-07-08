@@ -19,10 +19,10 @@ const Hero = () => {
           </h1>
           {/* Bio */}
           <div className="text-zinc-700 dark:text-white">
-            <p>18 years old, he/him</p>
+            <p className="mb-2">18 years old, he/him</p>
             <p>
-              Fresh graduate SMK Rekayasa Perangkat Lunak yang memiliki minat
-              dan fokus dalam membangun aplikasi web modern dan scalable.
+              A passionate Software Developer with a strong interest in web
+              technologies and digital product development.
             </p>
           </div>
         </div>
