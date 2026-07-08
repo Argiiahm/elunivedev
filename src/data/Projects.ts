@@ -1,6 +1,7 @@
 type Project = {
   img?: string;
   title: string;
+  slug: string;
   demoURL: string;
   features: string[];
   techStack: string[];
@@ -10,6 +11,7 @@ export const Projects: Project[] = [
   {
     img: "/images/projects/project_absen.png",
     title: "Absensi Karyawan",
+    slug: "absensi-karyawan",
     demoURL: "",
     features: [
       "Developed an employee attendance system with face recognition and live liveness detection",
@@ -23,6 +25,7 @@ export const Projects: Project[] = [
   {
     img: "/images/projects/areakerja.png",
     title: "Portal Kerja ( areakerja.com )",
+    slug: "portal-kerja-areakerja",
     demoURL: "https://areakerja.com",
     features: [
       "Developed a job portal website using Laravel",
@@ -33,6 +36,7 @@ export const Projects: Project[] = [
   },
   {
     title: "Bimbel Cerdas",
+    slug: "bimbel-cerdas",
     demoURL: "",
     features: [
       "Developed a tutoring platform using Laravel",
@@ -43,6 +47,7 @@ export const Projects: Project[] = [
   },
   {
     title: "Sending Love Self Development",
+    slug: "sending-love",
     demoURL: "",
     features: [
       "Implemented a daily mood analysis system by comparing mood trends with previous days",
@@ -52,6 +57,7 @@ export const Projects: Project[] = [
   },
   {
     title: "Stokify",
+    slug: "stokify",
     demoURL: "",
     features: [
       "Developed an inventory management system for tracking incoming and outgoing items",
@@ -62,6 +68,7 @@ export const Projects: Project[] = [
   },
   {
     title: "ChatPRD",
+    slug: "chat-prd",
     demoURL: "https://chat-prd-alpha.vercel.app/",
     features: [
       "Developed an AI-powered web application with PRD generation using the Gemini API",
