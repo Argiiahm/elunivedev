@@ -9,7 +9,7 @@ const About = () => {
         understanding of systems analysis, debugging, and problem-solving. I’m
         passionate about continuously learning and developing my skills in
         software development, and I’m ready to contribute in a professional
-        environment. Translated with DeepL.com (free version)
+        environment.
       </p>
     </section>
   );
